@@ -1516,7 +1516,10 @@
     left: 15px;
   }
   .elkevent-mobile-nav .logo img {
-    width: 125px;
+   
+    width: 76px;
+    margin-top: -30px;
+
   }
   .elkevent-mobile-nav nav .navbar-nav .nav-item a i {
     display: none;
