@@ -3323,6 +3323,7 @@ Buy Tickets CSS
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin-top: 35px;
 }
 
 .buy-tickets-area::before {
