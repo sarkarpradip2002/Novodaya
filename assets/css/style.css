@@ -235,7 +235,7 @@ p:last-child {
 }
 
 .section-title span {
-  color: #d5c113;
+  color: #f8ac29;
   font-family: "Oswald", sans-serif;
   letter-spacing: 1px;
   font-size: 16px;
@@ -506,6 +506,7 @@ Navbar CSS
 .elkevent-nav nav .navbar-nav .nav-item a {
   font-weight: 500;
   font-size: 20px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   color: #ffffff;
   -webkit-transition: 0.5s;
@@ -616,6 +617,23 @@ Navbar CSS
           animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 
+.slide-anim li::after {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  opacity: 0;
+  width: 0%;
+  height: 4px;
+  content: '';
+  background: #ec115a;
+  transition: all 0.5s;
+}
+
+.slide-anim li:hover::after {
+  opacity: 1;
+  width: 100%;
+}
+
 /*================================================
 Main Banner CSS
 =================================================*/
@@ -723,6 +741,7 @@ Main Banner CSS
 
 .item-bg1 {
   background-image: url(../img/main-bg1.jpg);
+  height: 100vh;
 }
 
 .item-bg2 {
@@ -1261,7 +1280,7 @@ About CSS
 }
 
 .about-content span {
-  color: #d5c113;
+  color: #f8ac29;
   font-family: "Oswald", sans-serif;
   letter-spacing: 1px;
   font-size: 16px;
@@ -4723,7 +4742,7 @@ Footer CSS
 
 .single-footer-widget .social-links li a.facebook {
   border: none;
-  background-color: #00acee;
+  background-color: #f8ac29;
 }
 
 .single-footer-widget .social-links li a.twitter {
@@ -4735,12 +4754,12 @@ Footer CSS
   border: none;
   /* background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), -webkit-gradient(linear, left top, left bottom, from(#6559ca), color-stop(30%, #bc318f), color-stop(50%, #e33f5f), color-stop(70%, #f77638), to(#fec66d));
   background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%); */
-  background-color: #00acee;
+  background-color: #EFA506;
 }
 
 .single-footer-widget .social-links li a.linkedin {
   border: none;
-  background-color: #00acee;
+  background-color: #8DC63F;
 }
 
 .single-footer-widget .social-links li a:hover, .single-footer-widget .social-links li a:focus {
@@ -4873,7 +4892,7 @@ Back To Top CSS
 }
 
 #logo img{
-  height: 86px;
+  height: 100px;
   margin-top: -26px;
   margin-bottom: -15px;
 }
