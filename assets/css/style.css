@@ -121,7 +121,7 @@ p:last-child {
   position: absolute;
   top: 0;
   width: 51%;
-  background: #FF2D55;
+  background: #d5c113;
   height: 100%;
   z-index: -1;
   -webkit-transition: 0.5s;
@@ -235,7 +235,7 @@ p:last-child {
 }
 
 .section-title span {
-  color: #FF2D55;
+  color: #d5c113;
   font-family: "Oswald", sans-serif;
   letter-spacing: 1px;
   font-size: 16px;
@@ -251,7 +251,7 @@ p:last-child {
 
 .section-title h2 b {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #FF2D55));
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #d5c113 80%);
   font-weight: unset;
   background-size: 100px 1.07em !important;
 }
@@ -519,11 +519,11 @@ Navbar CSS
 }
 
 .elkevent-nav nav .navbar-nav .nav-item a:hover, .elkevent-nav nav .navbar-nav .nav-item a:focus, .elkevent-nav nav .navbar-nav .nav-item a.active {
-  color: #FF2D55;
+  color: #d5c113;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item:hover a {
-  color: #FF2D55;
+  color: #d5c113;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu {
@@ -562,7 +562,7 @@ Navbar CSS
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus, .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #FF2D55;
+  color: #d5c113;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -579,7 +579,7 @@ Navbar CSS
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #FF2D55;
+  color: #d5c113;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
@@ -589,7 +589,7 @@ Navbar CSS
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a {
-  color: #FF2D55;
+  color: #d5c113;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item:hover ul {
@@ -773,7 +773,7 @@ Main Banner CSS
 }
 
 .main-banner-content h1 span {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #FF2D55));
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #d5c113));
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
   background-size: 100px 1.2em !important;
 }
@@ -783,7 +783,7 @@ Main Banner CSS
 }
 
 .main-banner-content h1 b:nth-of-type(2) {
-  color: #FF2D55;
+  color: #d5c113;
 }
 
 .main-banner-content h1 b:nth-of-type(3) {
@@ -812,7 +812,7 @@ Main Banner CSS
 
 .main-banner-content ul li i {
   margin-right: 3px;
-  color: #FF2D55;
+  color: #d5c113;
 }
 
 .main-banner-content ul li:last-child {
@@ -1261,7 +1261,7 @@ About CSS
 }
 
 .about-content span {
-  color: #FF2D55;
+  color: #d5c113;
   font-family: "Oswald", sans-serif;
   letter-spacing: 1px;
   font-size: 16px;
@@ -1276,8 +1276,8 @@ About CSS
 }
 
 .about-content h2 b {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #FF2D55));
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #d5c113));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #d5c113 80%);
   font-weight: unset;
   background-size: 100px 1.05em !important;
 }
@@ -1523,7 +1523,7 @@ Why Choose Us CSS
 
 .single-box .content .icon {
   font-size: 45px;
-  color: #FF2D55;
+  color: #d5c113;
 }
 
 .single-box .content h3 {
@@ -1814,7 +1814,7 @@ Speakers CSS
 .elkevent-single-speakers .speakers-content span {
   display: block;
   margin-top: 8px;
-  color: #FF2D55;
+  color: #d5c113;
   font-family: "Oswald", sans-serif;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -3481,7 +3481,7 @@ Page Title CSS
 
 .page-title-area span {
   display: block;
-  color: #FF2D55;
+  color: #d5c113;
   margin-top: 10px;
   font-family: "Oswald", sans-serif;
   font-size: 17px;
@@ -3499,7 +3499,7 @@ Page Title CSS
 .page-title-area ul li {
   display: inline-block;
   position: relative;
-  color: #FF2D55;
+  color: #d5c113;
   font-size: 17px;
   margin: 0 8px;
 }
@@ -4671,7 +4671,7 @@ Footer CSS
 }
 
 .single-footer-widget span {
-  color: #FF2D55;
+  color: #d5c113;
   display: block;
   font-family: "Oswald", sans-serif;
   margin-bottom: 8px;
