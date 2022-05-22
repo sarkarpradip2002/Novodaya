@@ -121,7 +121,7 @@ p:last-child {
   position: absolute;
   top: 0;
   width: 51%;
-  background: #d5c113;
+  background: #d2470a;
   height: 100%;
   z-index: -1;
   -webkit-transition: 0.5s;
@@ -4870,4 +4870,9 @@ Back To Top CSS
 
 #more{
   display: none  !important;
+}
+#logo img{
+  height: 86px;
+  margin-top: -26px;
+  margin-bottom: -15px;
 }
