@@ -4870,3 +4870,9 @@ Back To Top CSS
 #more{
   display: none  !important;
 }
+
+#logo img{
+  height: 86px;
+  margin-top: -26px;
+  margin-bottom: -15px;
+}
