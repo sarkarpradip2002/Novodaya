@@ -477,7 +477,7 @@ Navbar CSS
 }
 
 .elkevent-mobile-nav.mean-container .mean-nav ul li a.active {
-  color: #FF2D55;
+  color: #d5c113;
 }
 
 .elkevent-nav {
@@ -4520,9 +4520,9 @@ Contact Us CSS
   height: 50px;
   text-align: center;
   line-height: 47px;
-  border: 1px dashed #FF2D55;
+  border: 1px dashed #d5c113;
   border-radius: 50%;
-  color: #FF2D55;
+  color: #d5c113;
   font-size: 20px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -4542,7 +4542,7 @@ Contact Us CSS
 }
 
 .contact-box .content p a:hover, .contact-box .content p a:focus {
-  color: #FF2D55;
+  color: #d5c113;
 }
 
 .contact-box .content p:last-child {
@@ -4557,7 +4557,7 @@ Contact Us CSS
 }
 
 .contact-box:hover .icon, .contact-box:focus .icon {
-  background: #FF2D55;
+  background: #d5c113;
   color: #ffffff;
 }
 
@@ -4569,6 +4569,7 @@ Contact Us CSS
 
 .contact-form {
   margin-top: 50px;
+  justify-content: center;
 }
 
 .leave-your-message h3 {
@@ -4617,7 +4618,7 @@ Contact Us CSS
 }
 
 .leave-your-message .stay-connected ul li a:hover, .leave-your-message .stay-connected ul li a:focus {
-  color: #FF2D55;
+  color: #d5c113;
 }
 
 #contactForm {
