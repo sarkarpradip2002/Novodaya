@@ -121,7 +121,7 @@ p:last-child {
   position: absolute;
   top: 0;
   width: 51%;
-  background: #d2470a;
+  background: #f8ac29;
   height: 100%;
   z-index: -1;
   -webkit-transition: 0.5s;
@@ -147,7 +147,7 @@ p:last-child {
 }
 
 .btn-primary:hover, .btn-primary:focus {
-  background: #0d1028;
+  background: #ec115a;
   color: #ffffff;
   -webkit-box-shadow: 0 13px 27px 0 rgba(245, 78, 162, 0.25);
           box-shadow: 0 13px 27px 0 rgba(245, 78, 162, 0.25);
@@ -206,7 +206,7 @@ p:last-child {
 }
 
 .btn-secondary:hover, .btn-secondary:focus {
-  background: #0d1028;
+  background: #ec115a;
   color: #ffffff;
   -webkit-box-shadow: 0 13px 27px 0 rgba(245, 78, 162, 0.25);
           box-shadow: 0 13px 27px 0 rgba(245, 78, 162, 0.25);
@@ -301,7 +301,7 @@ p:last-child {
 }
 
 .section-title .bar::before {
-  background: #efa506;
+  background: #f8ac29;
   width: 30px;
   right: -63px;
 }
@@ -477,7 +477,7 @@ Navbar CSS
 }
 
 .elkevent-mobile-nav.mean-container .mean-nav ul li a.active {
-  color: #d5c113;
+  color: #FF2D55;
 }
 
 .elkevent-nav {
@@ -505,7 +505,7 @@ Navbar CSS
 
 .elkevent-nav nav .navbar-nav .nav-item a {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   text-transform: uppercase;
   color: #ffffff;
   -webkit-transition: 0.5s;
@@ -519,11 +519,11 @@ Navbar CSS
 }
 
 .elkevent-nav nav .navbar-nav .nav-item a:hover, .elkevent-nav nav .navbar-nav .nav-item a:focus, .elkevent-nav nav .navbar-nav .nav-item a.active {
-  color: #d5c113;
+  color: #f8ac29;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item:hover a {
-  color: #d5c113;
+  color: #f8ac29;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu {
@@ -637,7 +637,7 @@ Main Banner CSS
   width: 100%;
   height: 100%;
   background: #0d1028;
-  opacity: .77;
+  opacity: .64;
 }
 
 .slideshow-banner::before {
@@ -3323,7 +3323,6 @@ Buy Tickets CSS
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin-top: 35px;
 }
 
 .buy-tickets-area::before {
@@ -4521,9 +4520,9 @@ Contact Us CSS
   height: 50px;
   text-align: center;
   line-height: 47px;
-  border: 1px dashed #d5c113;
+  border: 1px dashed #FF2D55;
   border-radius: 50%;
-  color: #d5c113;
+  color: #FF2D55;
   font-size: 20px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -4543,7 +4542,7 @@ Contact Us CSS
 }
 
 .contact-box .content p a:hover, .contact-box .content p a:focus {
-  color: #d5c113;
+  color: #FF2D55;
 }
 
 .contact-box .content p:last-child {
@@ -4558,7 +4557,7 @@ Contact Us CSS
 }
 
 .contact-box:hover .icon, .contact-box:focus .icon {
-  background: #d5c113;
+  background: #FF2D55;
   color: #ffffff;
 }
 
@@ -4570,7 +4569,6 @@ Contact Us CSS
 
 .contact-form {
   margin-top: 50px;
-  justify-content: center;
 }
 
 .leave-your-message h3 {
@@ -4619,7 +4617,7 @@ Contact Us CSS
 }
 
 .leave-your-message .stay-connected ul li a:hover, .leave-your-message .stay-connected ul li a:focus {
-  color: #d5c113;
+  color: #FF2D55;
 }
 
 #contactForm {
@@ -4724,23 +4722,24 @@ Footer CSS
 
 .single-footer-widget .social-links li a.facebook {
   border: none;
-  background-color: #4267b2;
+  background-color: #00acee;
 }
 
 .single-footer-widget .social-links li a.twitter {
   border: none;
-  background-color: #38A1F3;
+  background-color: #00acee;
 }
 
 .single-footer-widget .social-links li a.instagram {
   border: none;
-  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), -webkit-gradient(linear, left top, left bottom, from(#6559ca), color-stop(30%, #bc318f), color-stop(50%, #e33f5f), color-stop(70%, #f77638), to(#fec66d));
-  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  /* background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), -webkit-gradient(linear, left top, left bottom, from(#6559ca), color-stop(30%, #bc318f), color-stop(50%, #e33f5f), color-stop(70%, #f77638), to(#fec66d));
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%); */
+  background-color: #00acee;
 }
 
 .single-footer-widget .social-links li a.linkedin {
   border: none;
-  background-color: #0077B5;
+  background-color: #00acee;
 }
 
 .single-footer-widget .social-links li a:hover, .single-footer-widget .social-links li a:focus {
@@ -4871,6 +4870,7 @@ Back To Top CSS
 #more{
   display: none  !important;
 }
+
 #logo img{
   height: 86px;
   margin-top: -26px;
