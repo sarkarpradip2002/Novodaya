@@ -745,7 +745,7 @@ Main Banner CSS
 }
 
 .item-bg2 {
-  background-image: url(../img/banner.jpeg);
+  background-image: url(../img/k.png);
 }
 
 .item-bg3 {
@@ -5000,6 +5000,6 @@ Back To Top CSS
   }
   @media (max-width: 673px){
     #myVideo{
-      right: -332px;
+      right: -437px;
     }
   }
