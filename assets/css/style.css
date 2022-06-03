@@ -766,7 +766,7 @@ Main Banner CSS
   z-index: 1;
 }
 
-.main-banner-content::before {
+/* .main-banner-content::before {
   content: '';
   position: absolute;
   top: -75px;
@@ -782,7 +782,7 @@ Main Banner CSS
           box-sizing: border-box;
   -webkit-box-shadow: 0 60px 40px -40px rgba(0, 0, 0, 0.3);
           box-shadow: 0 60px 40px -40px rgba(0, 0, 0, 0.3);
-}
+} */
 
 .main-banner-content h1 {
   color: #ffffff;
@@ -5000,6 +5000,6 @@ Back To Top CSS
   }
   @media (max-width: 673px){
     #myVideo{
-      right: -437px;
+      width: 100vw;
     }
   }
