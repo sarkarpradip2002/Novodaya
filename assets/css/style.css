@@ -740,12 +740,12 @@ Main Banner CSS
 }
 
 .item-bg1 {
-  background-image: url(../img/banner.jpeg);
+  background: url(../img/intro.mp4);
   height: 100vh;
 }
 
 .item-bg2 {
-  background-image: url(../img/k.png);
+  background-image: url(../img/banner.jpeg);
 }
 
 .item-bg3 {
@@ -4989,3 +4989,17 @@ Back To Top CSS
 
 .event-button{    font-size: 13px;
   padding: 8px;}
+
+  #myVideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+  @media (max-width: 673px){
+    #myVideo{
+      right: -332px;
+    }
+  }
