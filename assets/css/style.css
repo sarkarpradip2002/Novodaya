@@ -1483,17 +1483,17 @@ Why Choose Us CSS
 }
 
 .why-choose-us .slideshow li:nth-child(1) span {
-  background-image: url(../img/slideshow-bg1.jpg);
+  background-image: url(../img/107.jpg);
 }
 
 .why-choose-us .slideshow li:nth-child(2) span {
-  background-image: url(../img/slideshow-bg2.jpg);
+  background-image: url(../img/107.jpg);
   -webkit-animation-delay: 6s;
           animation-delay: 6s;
 }
 
 .why-choose-us .slideshow li:nth-child(3) span {
-  background-image: url(../img/slideshow-bg3.jpg);
+  background-image: url(../img/107.jpg);
   -webkit-animation-delay: 12s;
           animation-delay: 12s;
 }
