@@ -49,6 +49,8 @@
     height: 90vh;
     padding-top: 170px;
     padding-bottom: 125px;
+    background-size: cover;
+    background-position: center;
   }
   .main-banner-content::before {
     display: none;

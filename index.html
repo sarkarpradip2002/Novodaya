@@ -9,6 +9,7 @@
 
         <!-- Bootstrap Min CSS -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <!-- MeanMenu CSS -->
 		<link rel="stylesheet" href="assets/css/meanmenu.css">
 		<!-- IcoFont Min CSS -->
@@ -81,12 +82,32 @@
 			</div>
 		</header>
         <!-- End Navbar Area -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h5 class="modal-title">Hurry Up!!!</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		  </div>
+		  <div class="modal-body" style="margin: auto;">
+			<div class="card" style="width: 18rem;">
+				<img src="assets/img/ticket.jpg" class="card-img-top" alt="...">
+			  </div>
+		  </div>
+		  <div class="modal-footer" style="justify-content: center;">
+			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+			<button type="button" class="btn btn-primary">Book Ticket!</button>
+		  </div>
+		</div>
+	  </div>
+  </div>
         
         <!-- Start Main Banner -->
-        <div class="main-banner">
-			<video autoplay muted loop id="myVideo">
+        <div class="main-banner item-bg1">
+			<!-- <video autoplay muted loop id="myVideo">
 			<source src="assets/img/intro.mp4" type="video/mp4">
-		  </video>
+		  </video> -->
             <div class="d-table">
                 <div class="d-table-cell">
                     <div class="container">
@@ -98,7 +119,9 @@
 								<li><i class="icofont-calendar"></i> 9-10 June, 2022</li>
 							</ul>
 							<div class="button-box">
-								<a href="event.html" class="btn btn-primary">Resiter now!</a>
+								<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+									Book Tickets Now!
+								  </button>
 								<a href="https://www.youtube.com/watch?v=EpaWkBhgXjQ" class="video-btn popup-youtube"><i class="icofont-ui-play"></i> Watch Pormo Video</a>
 							</div>
                         </div>
@@ -139,7 +162,7 @@
 
 							<a href="about.html" class="btn btn-primary">Read More <i class="icofont-double-right"></i></a>
 
-							<a href="#" class="btn btn-secondary">Buy Ticket</a>
+							<!-- <a href="#" class="btn btn-secondary">Buy Ticket</a> -->
 						</div>
 					</div>
 
@@ -1469,6 +1492,7 @@
         <!-- Main JS -->
         <script src="assets/js/main.js"></script>
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
         <script>
           AOS.init();
         </script>
