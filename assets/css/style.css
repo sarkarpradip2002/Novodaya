@@ -1804,6 +1804,7 @@ Speakers CSS
 .elkevent-single-speakers {
   overflow: hidden;
   position: relative;
+  height: 463px;
 }
 
 .elkevent-single-speakers .speakers-content {
@@ -1896,6 +1897,9 @@ Speakers CSS
 .elkevent-single-speakers img {
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  object-fit: contain;
+    width: 100%;
+    height: 100%;
 }
 
 .elkevent-single-speakers:hover .speakers-content, .elkevent-single-speakers:focus .speakers-content {
@@ -5004,4 +5008,5 @@ Back To Top CSS
     #myVideo{
       width: 100vw;
     }
+  
   }
