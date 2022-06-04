@@ -1442,6 +1442,7 @@ Why Choose Us CSS
 .why-choose-us {
   position: relative;
   z-index: 1;
+  margin-top: 20px;
 }
 
 .why-choose-us::before {
@@ -2758,7 +2759,7 @@ FunFacts CSS
 .funfacts-area {
   position: relative;
   z-index: 1;
-  background-image: url(../img/funfacts-bg.jpg);
+  background-image: url(../img/101.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3344,7 +3345,7 @@ Buy Tickets CSS
 .buy-tickets-area {
   position: relative;
   z-index: 1;
-  background-image: url(../img/funfacts-bg.jpg);
+  background-image: url(../img/103.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5009,4 +5010,7 @@ Back To Top CSS
       width: 100vw;
     }
   
+  }
+  .about-gap{
+    margin-top: 10px;
   }
