@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
 .container1{
   display: flex;
   flex-direction: column;
@@ -32,6 +31,7 @@
 }
 .container1 .box{
  display: flex;
+ width: 100%;
  flex-direction: column;
  justify-content: space-between;
 }
@@ -44,7 +44,7 @@
 
 .container1 .box .dream img{
   width: 100%;
-  padding-bottom: 15px;
+  padding-bottom: 32px;
   border-radius: 5px;
 }
 
@@ -65,6 +65,7 @@
 
 @media only screen and (max-width: 769px){
 .container1 .box{
+  width: 100%;
    flex-direction: column;
   }
 

@@ -1,4 +1,11 @@
 @media only screen and (max-width: 767px) {
+  .container1 .box{
+    width: 100%;
+  }
+  
+.container1 .box .dream img{
+  padding-bottom: 32px;
+}
   .ptb-120 {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -46,7 +53,7 @@
     margin: -80px 0 0 -55px;
   }
   .main-banner {
-    height: 90vh;
+    height: 100vh;
     padding-top: 170px;
     padding-bottom: 125px;
     background-size: cover;
@@ -56,19 +63,19 @@
     display: none;
   }
   .main-banner-content h1 {
-    font-size: 28px;
+    font-size: 39px;
   }
   .main-banner-content h1 br {
     display: none;
   }
   .main-banner-content p {
-    font-size: 15px;
+    font-size: 26px;
   }
   .main-banner-content ul {
     margin-bottom: 30px;
   }
   .main-banner-content ul li {
-    font-size: 13px;
+    font-size: 19px;
   }
   .main-banner-content .button-box .video-btn {
     font-size: 13px;
@@ -643,6 +650,7 @@
     margin-top: 10px;
   }
   .page-title-area {
+   height: 90vh;
     padding-top: 160px;
     padding-bottom: 100px;
   }
@@ -1255,6 +1263,7 @@
     font-size: 30px;
   }
   .page-title-area {
+    height: 90vh;
     padding-top: 160px;
     padding-bottom: 120px;
   }
