@@ -1319,7 +1319,7 @@ About CSS
 .about-image .about-img1 {
   position: relative;
   right: -100px;
-  top: -80px;
+  /* top: -80px; */
 }
 
 .about-image .about-img2 {
@@ -1330,8 +1330,8 @@ About CSS
 
 .about-image .shape-img {
   position: absolute;
-  top: -28px;
-  left: 48%;
+  top: -128px;
+  left: 58%;
   margin-top: 77px;
   -webkit-animation: movebounce 5s linear infinite;
           animation: movebounce 5s linear infinite;
@@ -5014,4 +5014,7 @@ Back To Top CSS
   }
   .about-gap{
     margin-top: 10px;
+  }
+  #target-img{
+    display: none;
   }
