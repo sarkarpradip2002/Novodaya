@@ -2,10 +2,6 @@
   .container1 .box{
     width: 100%;
   }
-  #target-img{
-    display: block;
-  }
-  
 .container1 .box .dream img{
   padding-bottom: 32px;
 }
@@ -201,7 +197,7 @@
     margin-top: 20px;
   }
   .about-image .shape-img {
-    top: 47%;
+    top: 42%;
     left: 0;
     right: 0;
     margin: 100px auto;
